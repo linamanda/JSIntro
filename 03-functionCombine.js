@@ -4,7 +4,7 @@
 */
 
 function concatStr(string1, string2) {
-  console.log(string1 + string2);
+  return (string1 + string2);
 }
 
 // Test
@@ -12,4 +12,4 @@ function concatStr(string1, string2) {
 console.log("Testing concatStr('hi', 'ho')...");
 var str1 = "hi";
 var str2 = "ho";
-concatStr(str1, str2);
+console.log(concatStr(str1, str2));
